@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0192E761C08BDF7384ABC673 /* Pods_emergencycallalipanhwar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5F0CE470169296BF6B7CAF /* Pods_emergencycallalipanhwar.framework */; };
+		2C7684E21ACF373D7E2DD974 /* Pods_emergencycallalipanhwarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C661A39D95D913B267FA44 /* Pods_emergencycallalipanhwarTests.framework */; };
+		929799E3722E77EC68F93B52 /* Pods_emergencycallalipanhwarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53B8F2C471AFB209B121288 /* Pods_emergencycallalipanhwarUITests.framework */; };
 		9E07B29A20B2A8B0000AADD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07B29920B2A8B0000AADD0 /* AppDelegate.swift */; };
 		9E07B29C20B2A8B0000AADD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07B29B20B2A8B0000AADD0 /* ViewController.swift */; };
 		9E07B29F20B2A8B0000AADD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E07B29D20B2A8B0000AADD0 /* Main.storyboard */; };
@@ -14,6 +17,17 @@
 		9E07B2A420B2A8B4000AADD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E07B2A220B2A8B4000AADD0 /* LaunchScreen.storyboard */; };
 		9E07B2AF20B2A8B4000AADD0 /* emergencycallalipanhwarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07B2AE20B2A8B4000AADD0 /* emergencycallalipanhwarTests.swift */; };
 		9E07B2BA20B2A8B4000AADD0 /* emergencycallalipanhwarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07B2B920B2A8B4000AADD0 /* emergencycallalipanhwarUITests.swift */; };
+		9E07B2CA20B2C7DB000AADD0 /* countryselectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07B2C920B2C7DB000AADD0 /* countryselectionViewController.swift */; };
+		9E36312720BD693A00F382A7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36312620BD693A00F382A7 /* HistoryViewController.swift */; };
+		9E4CE61A210067E200146824 /* AmbulanceArrivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4CE619210067E200146824 /* AmbulanceArrivedViewController.swift */; };
+		9E61CEF420EE322900008766 /* EmergencyRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E61CEF320EE322900008766 /* EmergencyRequestViewController.swift */; };
+		9E727AE620B559C500165659 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E727AE520B559C500165659 /* SignUpViewController.swift */; };
+		9E7DB7A920C69DEC0089B95F /* DrowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DB7A820C69DEC0089B95F /* DrowerViewController.swift */; };
+		9E8B4FB820EA1FD9004B12C4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B4FB720EA1FD9004B12C4 /* ProfileViewController.swift */; };
+		9E94652B20B6916F00CC501A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94652A20B6916F00CC501A /* MapViewController.swift */; };
+		9E94652D20B69FC100CC501A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E94652C20B69FC100CC501A /* CoreLocation.framework */; };
+		9E99BA4620B41AD600BB5B90 /* verifiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99BA4520B41AD600BB5B90 /* verifiationViewController.swift */; };
+		9E99BA4820B41D8500BB5B90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E99BA4720B41D8500BB5B90 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C8D21FDC0F634EED2E6147C /* Pods-emergencycallalipanhwarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallalipanhwarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallalipanhwarUITests/Pods-emergencycallalipanhwarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52F77DA403C273FF7D19B3ED /* Pods-emergencycallalipanhwarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallalipanhwarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallalipanhwarTests/Pods-emergencycallalipanhwarTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E63B3180119FA9B401B957B /* Pods-emergencycallalipanhwarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallalipanhwarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallalipanhwarUITests/Pods-emergencycallalipanhwarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A5F0CE470169296BF6B7CAF /* Pods_emergencycallalipanhwar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emergencycallalipanhwar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E07B29620B2A8B0000AADD0 /* emergencycallalipanhwar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emergencycallalipanhwar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E07B29920B2A8B0000AADD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E07B29B20B2A8B0000AADD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,23 @@
 		9E07B2B520B2A8B4000AADD0 /* emergencycallalipanhwarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emergencycallalipanhwarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E07B2B920B2A8B4000AADD0 /* emergencycallalipanhwarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergencycallalipanhwarUITests.swift; sourceTree = "<group>"; };
 		9E07B2BB20B2A8B4000AADD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E07B2C920B2C7DB000AADD0 /* countryselectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryselectionViewController.swift; sourceTree = "<group>"; };
+		9E36312620BD693A00F382A7 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9E4CE619210067E200146824 /* AmbulanceArrivedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulanceArrivedViewController.swift; sourceTree = "<group>"; };
+		9E61CEF320EE322900008766 /* EmergencyRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyRequestViewController.swift; sourceTree = "<group>"; };
+		9E727AE520B559C500165659 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9E7DB7A820C69DEC0089B95F /* DrowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrowerViewController.swift; sourceTree = "<group>"; };
+		9E8B4FB720EA1FD9004B12C4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9E94652A20B6916F00CC501A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9E94652C20B69FC100CC501A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9E94653420B6C70F00CC501A /* emergencycallalipanhwar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "emergencycallalipanhwar-Bridging-Header.h"; path = "/Users/mohammadalipanhwar/Desktop/emergencycallalipanhwar/emergencycallalipanhwar/emergencycallalipanhwar-Bridging-Header.h"; sourceTree = "<absolute>"; };
+		9E99BA4520B41AD600BB5B90 /* verifiationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifiationViewController.swift; sourceTree = "<group>"; };
+		9E99BA4720B41D8500BB5B90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEAEB8151D26A9E4C83BB986 /* Pods-emergencycallalipanhwar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallalipanhwar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallalipanhwar/Pods-emergencycallalipanhwar.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C661A39D95D913B267FA44 /* Pods_emergencycallalipanhwarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emergencycallalipanhwarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53B8F2C471AFB209B121288 /* Pods_emergencycallalipanhwarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emergencycallalipanhwarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5397C1E367CC0E30E7FB6EB /* Pods-emergencycallalipanhwar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallalipanhwar.release.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallalipanhwar/Pods-emergencycallalipanhwar.release.xcconfig"; sourceTree = "<group>"; };
+		F49B8E1CEFADCC7515B905B6 /* Pods-emergencycallalipanhwarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallalipanhwarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallalipanhwarTests/Pods-emergencycallalipanhwarTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E94652D20B69FC100CC501A /* CoreLocation.framework in Frameworks */,
+				0192E761C08BDF7384ABC673 /* Pods_emergencycallalipanhwar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7684E21ACF373D7E2DD974 /* Pods_emergencycallalipanhwarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +106,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929799E3722E77EC68F93B52 /* Pods_emergencycallalipanhwarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1B0DB2045F42516B0637CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E94652C20B69FC100CC501A /* CoreLocation.framework */,
+				9A5F0CE470169296BF6B7CAF /* Pods_emergencycallalipanhwar.framework */,
+				B4C661A39D95D913B267FA44 /* Pods_emergencycallalipanhwarTests.framework */,
+				B53B8F2C471AFB209B121288 /* Pods_emergencycallalipanhwarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E599F0DDD458313935290F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEAEB8151D26A9E4C83BB986 /* Pods-emergencycallalipanhwar.debug.xcconfig */,
+				C5397C1E367CC0E30E7FB6EB /* Pods-emergencycallalipanhwar.release.xcconfig */,
+				F49B8E1CEFADCC7515B905B6 /* Pods-emergencycallalipanhwarTests.debug.xcconfig */,
+				52F77DA403C273FF7D19B3ED /* Pods-emergencycallalipanhwarTests.release.xcconfig */,
+				6E63B3180119FA9B401B957B /* Pods-emergencycallalipanhwarUITests.debug.xcconfig */,
+				1C8D21FDC0F634EED2E6147C /* Pods-emergencycallalipanhwarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9E07B28D20B2A8AF000AADD0 = {
 			isa = PBXGroup;
 			children = (
 				9E07B29820B2A8B0000AADD0 /* emergencycallalipanhwar */,
-				9E07B2AD20B2A8B4000AADD0 /* emergencycallalipanhwarTests */,
 				9E07B2B820B2A8B4000AADD0 /* emergencycallalipanhwarUITests */,
+				9E07B2AD20B2A8B4000AADD0 /* emergencycallalipanhwarTests */,
 				9E07B29720B2A8B0000AADD0 /* Products */,
+				4E599F0DDD458313935290F8 /* Pods */,
+				4E1B0DB2045F42516B0637CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +162,23 @@
 		9E07B29820B2A8B0000AADD0 /* emergencycallalipanhwar */ = {
 			isa = PBXGroup;
 			children = (
+				9E94653420B6C70F00CC501A /* emergencycallalipanhwar-Bridging-Header.h */,
 				9E07B29920B2A8B0000AADD0 /* AppDelegate.swift */,
 				9E07B29B20B2A8B0000AADD0 /* ViewController.swift */,
 				9E07B29D20B2A8B0000AADD0 /* Main.storyboard */,
+				9E4CE619210067E200146824 /* AmbulanceArrivedViewController.swift */,
+				9E61CEF320EE322900008766 /* EmergencyRequestViewController.swift */,
+				9E8B4FB720EA1FD9004B12C4 /* ProfileViewController.swift */,
+				9E94652A20B6916F00CC501A /* MapViewController.swift */,
+				9E99BA4520B41AD600BB5B90 /* verifiationViewController.swift */,
+				9E727AE520B559C500165659 /* SignUpViewController.swift */,
+				9E07B2C920B2C7DB000AADD0 /* countryselectionViewController.swift */,
+				9E36312620BD693A00F382A7 /* HistoryViewController.swift */,
+				9E7DB7A820C69DEC0089B95F /* DrowerViewController.swift */,
 				9E07B2A020B2A8B4000AADD0 /* Assets.xcassets */,
 				9E07B2A220B2A8B4000AADD0 /* LaunchScreen.storyboard */,
 				9E07B2A520B2A8B4000AADD0 /* Info.plist */,
+				9E99BA4720B41D8500BB5B90 /* GoogleService-Info.plist */,
 			);
 			path = emergencycallalipanhwar;
 			sourceTree = "<group>";
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E07B2BE20B2A8B4000AADD0 /* Build configuration list for PBXNativeTarget "emergencycallalipanhwar" */;
 			buildPhases = (
+				D97FFF392E55FF7F58114C3B /* [CP] Check Pods Manifest.lock */,
 				9E07B29220B2A8AF000AADD0 /* Sources */,
 				9E07B29320B2A8AF000AADD0 /* Frameworks */,
 				9E07B29420B2A8AF000AADD0 /* Resources */,
+				F9383152E7FF8845C6F9E164 /* [CP] Embed Pods Frameworks */,
+				52C79BCBD9456534EC23B950 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E07B2C120B2A8B4000AADD0 /* Build configuration list for PBXNativeTarget "emergencycallalipanhwarTests" */;
 			buildPhases = (
+				EB94B07AA4923448A3026A8E /* [CP] Check Pods Manifest.lock */,
 				9E07B2A620B2A8B4000AADD0 /* Sources */,
 				9E07B2A720B2A8B4000AADD0 /* Frameworks */,
 				9E07B2A820B2A8B4000AADD0 /* Resources */,
@@ -167,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E07B2C420B2A8B4000AADD0 /* Build configuration list for PBXNativeTarget "emergencycallalipanhwarUITests" */;
 			buildPhases = (
+				0363E2654F65C8E5BC91F4F8 /* [CP] Check Pods Manifest.lock */,
 				9E07B2B120B2A8B4000AADD0 /* Sources */,
 				9E07B2B220B2A8B4000AADD0 /* Frameworks */,
 				9E07B2B320B2A8B4000AADD0 /* Resources */,
@@ -193,6 +274,12 @@
 				TargetAttributes = {
 					9E07B29520B2A8AF000AADD0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					9E07B2A920B2A8B4000AADD0 = {
 						CreatedOnToolsVersion = 9.3;
@@ -230,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E07B2A420B2A8B4000AADD0 /* LaunchScreen.storyboard in Resources */,
+				9E99BA4820B41D8500BB5B90 /* GoogleService-Info.plist in Resources */,
 				9E07B2A120B2A8B4000AADD0 /* Assets.xcassets in Resources */,
 				9E07B29F20B2A8B0000AADD0 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +339,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0363E2654F65C8E5BC91F4F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emergencycallalipanhwarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C79BCBD9456534EC23B950 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallalipanhwar/Pods-emergencycallalipanhwar-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallalipanhwar/Pods-emergencycallalipanhwar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97FFF392E55FF7F58114C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emergencycallalipanhwar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB94B07AA4923448A3026A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emergencycallalipanhwarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9383152E7FF8845C6F9E164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallalipanhwar/Pods-emergencycallalipanhwar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerView/CountryPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallalipanhwar/Pods-emergencycallalipanhwar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E07B29220B2A8AF000AADD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4CE61A210067E200146824 /* AmbulanceArrivedViewController.swift in Sources */,
 				9E07B29C20B2A8B0000AADD0 /* ViewController.swift in Sources */,
+				9E94652B20B6916F00CC501A /* MapViewController.swift in Sources */,
+				9E61CEF420EE322900008766 /* EmergencyRequestViewController.swift in Sources */,
+				9E36312720BD693A00F382A7 /* HistoryViewController.swift in Sources */,
+				9E99BA4620B41AD600BB5B90 /* verifiationViewController.swift in Sources */,
+				9E8B4FB820EA1FD9004B12C4 /* ProfileViewController.swift in Sources */,
 				9E07B29A20B2A8B0000AADD0 /* AppDelegate.swift in Sources */,
+				9E07B2CA20B2C7DB000AADD0 /* countryselectionViewController.swift in Sources */,
+				9E727AE620B559C500165659 /* SignUpViewController.swift in Sources */,
+				9E7DB7A920C69DEC0089B95F /* DrowerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,16 +642,25 @@
 		};
 		9E07B2BF20B2A8B4000AADD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAEB8151D26A9E4C83BB986 /* Pods-emergencycallalipanhwar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A47UNX83Q;
 				INFOPLIST_FILE = emergencycallalipanhwar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = alsofttech.emergencycallalipanhwar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "emergencycallalipanhwar/emergencycallalipanhwar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +668,24 @@
 		};
 		9E07B2C020B2A8B4000AADD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5397C1E367CC0E30E7FB6EB /* Pods-emergencycallalipanhwar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A47UNX83Q;
 				INFOPLIST_FILE = emergencycallalipanhwar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = alsofttech.emergencycallalipanhwar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "emergencycallalipanhwar/emergencycallalipanhwar-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +693,7 @@
 		};
 		9E07B2C220B2A8B4000AADD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49B8E1CEFADCC7515B905B6 /* Pods-emergencycallalipanhwarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +714,7 @@
 		};
 		9E07B2C320B2A8B4000AADD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F77DA403C273FF7D19B3ED /* Pods-emergencycallalipanhwarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +735,7 @@
 		};
 		9E07B2C520B2A8B4000AADD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E63B3180119FA9B401B957B /* Pods-emergencycallalipanhwarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +755,7 @@
 		};
 		9E07B2C620B2A8B4000AADD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8D21FDC0F634EED2E6147C /* Pods-emergencycallalipanhwarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
